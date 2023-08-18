@@ -11,7 +11,10 @@ body{
 }
 
 .navbar-container{
+    top:0;
     background-color: #262B37;
+    position: sticky;
+    z-index: 2;
 }
 
 .about-container{
@@ -26,11 +29,16 @@ body{
     background-color: #FB857F;
 }
 
+.bg-redType:hover{
+    background-color: #6dbad8;
+    color:#262B37 !important;
+}
+
 .redType-color{
     color: #FB857F;
 }
 
-.circle{
+.circle-edu{
     background-color: #FB857F;
     width: 150px;
     height: 150px;
@@ -38,5 +46,33 @@ body{
 }
 
 .project-container{
-    background-color: #6dbad8;
+    background-color: #2b83a5;
+}
+
+.form-container{
+    background-color: #474D5D;
+}
+
+.inner-form{
+    background-color: #585F73;
+}
+
+.footer{
+    background-color: #2b83a5;
+}
+
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color:#2b83a5;
+}
+
+.circle:hover{
+    background-color: #474D5D;
+    color: white;
 }
